@@ -1,0 +1,2 @@
+adityakasibhatla@Adityas-MacBook-Pro-2 contracts2 % npx hardhat run --network liberty scripts/deploy.js
+Cricinshots Energy Token deployed to: 0x7E7DB5c2F0aD88aB9a664be58AbA10a5Eb746290
