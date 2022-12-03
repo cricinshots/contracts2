@@ -62,8 +62,8 @@ const init = async () => {
         console.error("Token not initialised");
         throw new Error("Token not initialised");
     }
-    app.listen(8000)
-    console.log("app listening");
+    app.listen(8121)
+    console.log("app listening 8121");
 }
 
 init();
