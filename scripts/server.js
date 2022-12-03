@@ -9,13 +9,7 @@ const port = process.env.PORT;
 const TestPublicAddress = process.env.TEST_PUBLIC_ADDRESS;
 
 async function main() {
-    await ContractActions.init();
-    if(ContractActions.cet) {
-        console.log("Token initialised");
-    }else{
-        console.error("Token not initialised");
-        throw new Error("Token not initialised");
-    }
+
     app.listen(port, (_) => console.log(`Contract server listening on port ${port}`));
 
     // Run tests
